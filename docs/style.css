@@ -1,0 +1,262 @@
+* ----------------------------------------*/
+/* basic setup*/
+/*-----------------------------------------*/
+
+
+body {
+    background: url(img/bg_dark.png);
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3, h2, h1, h4, h5 {
+    font-family: 'policetitre';
+}
+
+p {
+    font-family: 'policetexte';
+    font-size : 1.4rem;
+}
+
+.symbole {
+    
+    font-family: 'symboles';
+    color: #eb8024;
+    vertical-align: super;
+    font-size: 1.5rem; 
+}
+
+
+/* ----------------------------------------*/
+/* Fonts */
+/*-----------------------------------------*/
+@font-face
+{
+    font-family: 'policetitre';
+    src: url("fonts/Police titres/anirb___.ttf");
+}
+
+@font-face
+{
+    font-family: 'policetexte';
+    src: url("fonts/Police texte/partybusiness.ttf");
+}
+
+@font-face
+{
+    font-family: 'symboles';
+    src: url("fonts/symboles/tnganbi.ttf");
+}
+
+/* ----------------------------------------*/
+/* NAVBAR         */
+/*-----------------------------------------*/
+
+.navbar  {
+    font-family: 'policetitre';
+    background-color: #eb8024;
+    font-size: 0.8rem;
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 0.8rem;
+    color: white;    
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.nav-link:active {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 2px;
+padding-right: 30px;
+}
+
+/* ----------------------------------------*/
+/* footer: ;                */
+/*-----------------------------------------*/
+
+.footer {
+    background-color: #eb8024;
+    padding-top: 2%;
+    color: #f8f9fa;
+}
+
+.myprecious {
+    
+    text-align: center;
+    height:150px;
+    margin-top: 75px;
+}
+
+.find {
+    
+    text-align: center;
+    height:150px;
+    margin-top: 75px;
+}
+
+
+/* ----------------------------------------*/
+/* Css généré avec du SCSS                */
+/*-----------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.ring1 {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkorange;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.ring2 {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: yellow;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  box-shadow: inset 5px 5px 5px #4d4d00, 5px 5px 5px #4d4d00;
+}
+
+.ring3:nth-child(1) {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  transform: scale(1.2, 1.2);
+  box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+}
+
+.ring3:nth-child(2) {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  transform: scale(1.4, 1.4);
+  box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+}
+
+.ring3:nth-child(3) {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  transform: scale(1.6, 1.6);
+  box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+}
+
+.ring3:nth-child(4) {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  transform: scale(1.8, 1.8);
+  box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+}
+
+.ring3:nth-child(5) {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  transform: scale(2, 2);
+  box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+}
+
+.ring3:nth-child(6) {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  transform: scale(2.2, 2.2);
+  box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+}
+
+.ring3:nth-child(7) {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  transform: scale(2.4, 2.4);
+  box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+}
+
+/*SCSS
+** {
+  box-sizing: border-box;
+}
+
+@mixin ring ($color, $height, $width, $border) {
+  border-radius : 50%;
+  border-style : solid;
+  border-width: $border;
+  border-color: $color;
+  height : $height;
+  width : $width;
+  display: inline-block;
+}
+
+.ring1 {
+  @include ring(darkorange, 40px, 40px, 5px)
+}
+
+.ring2 {
+  @include ring(yellow, 100px, 100px, 10px);
+  box-shadow: inset 5px 5px 5px #4d4d00, 5px 5px 5px #4d4d00;
+
+}
+
+@for $i from 1 through 7 {
+  .ring3:nth-child(#{$i}) {
+    @include ring(grey, 30px, 30px,3px);
+    transform: scale(1+(0.2*$i),1+0.2*$i);
+    box-shadow: inset 2px 2px 2px #4d4d00, 2px 2px 2px #4d4d00;
+  
+  }
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
+
